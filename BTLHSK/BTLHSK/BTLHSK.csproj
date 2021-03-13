@@ -77,12 +77,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CapTaiKhoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CapTaiKhoan.Designer.cs">
-      <DependentUpon>CapTaiKhoan.cs</DependentUpon>
-    </Compile>
     <Compile Include="CrystalReport1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -94,18 +88,6 @@
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DoiMatKhau.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DoiMatKhau.Designer.cs">
-      <DependentUpon>DoiMatKhau.cs</DependentUpon>
-    </Compile>
-    <Compile Include="KhoaTaiKhoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KhoaTaiKhoan.Designer.cs">
-      <DependentUpon>KhoaTaiKhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="PhieuMuon.cs">
       <SubType>Form</SubType>
@@ -184,27 +166,12 @@
       <DependentUpon>thuThuReport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ViewTaiKhoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewTaiKhoan.Designer.cs">
-      <DependentUpon>ViewTaiKhoan.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="CapTaiKhoan.resx">
-      <DependentUpon>CapTaiKhoan.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CrystalReport1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DoiMatKhau.resx">
-      <DependentUpon>DoiMatKhau.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KhoaTaiKhoan.resx">
-      <DependentUpon>KhoaTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhieuMuon.resx">
       <DependentUpon>PhieuMuon.cs</DependentUpon>

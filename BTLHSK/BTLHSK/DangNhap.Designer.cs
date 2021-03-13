@@ -35,7 +35,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.loginBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.hienckb = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,9 +62,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(103, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 38);
+            this.label1.Size = new System.Drawing.Size(209, 38);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Đăng nhập";
+            this.label1.Text = "Quản lý sách";
             // 
             // label2
             // 
@@ -98,7 +97,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.hienckb);
             this.groupBox1.Controls.Add(this.matKhau);
             this.groupBox1.Controls.Add(this.taiKhoan);
             this.groupBox1.Controls.Add(this.label3);
@@ -109,17 +107,6 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Form đăng nhập";
-            // 
-            // hienckb
-            // 
-            this.hienckb.AutoSize = true;
-            this.hienckb.Location = new System.Drawing.Point(205, 92);
-            this.hienckb.Name = "hienckb";
-            this.hienckb.Size = new System.Drawing.Size(59, 21);
-            this.hienckb.TabIndex = 9;
-            this.hienckb.Text = "Hiện";
-            this.hienckb.UseVisualStyleBackColor = true;
-            this.hienckb.CheckedChanged += new System.EventHandler(this.hienckb_CheckedChanged);
             // 
             // DangNhap
             // 
@@ -147,6 +134,5 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.GroupBox groupBox1;
-        internal System.Windows.Forms.CheckBox hienckb;
     }
 }

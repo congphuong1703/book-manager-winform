@@ -36,15 +36,15 @@ namespace BTLHSK
         public void check()
         {
             SqlConnection connect = openSQL();
-            string query = "select * from tblTaiKhoan where taikhoan = '" + taiKhoan.Text + "'and matkhau = '" + matKhau.Text + "';";
+            string queryThuThu = "select * from tblThuThu where maThuThu = '" + taiKhoan.Text + "'and email = '" + matKhau.Text + "';";
 
-            SqlCommand cmd = new SqlCommand(query, connect);
-            SqlDataReader reader = cmd.ExecuteReader();
+            SqlCommand cmdThuThu = new SqlCommand(queryThuThu, connect);
+            SqlDataReader readerThuThu = cmdThuThu.ExecuteReader();
 
-            if (reader.HasRows)
+            if (readerThuThu.HasRows)
             {
-                ViewTaiKhoan view = new ViewTaiKhoan();
-                view.Show();
+                PhieuMuonChiTiet phieuMuonChiTiet = new PhieuMuonChiTiet();
+                phieuMuonChiTiet.Show();
                 this.Hide();
             }
             else
@@ -55,11 +55,6 @@ namespace BTLHSK
                 taiKhoan.Focus();
             }
             connect.Close();
-        }
-
-        private void hienckb_CheckedChanged(object sender, EventArgs e)
-        {
-            matKhau.PasswordChar = hienckb.Checked ? '\0' : '*';
         }
     }
 }

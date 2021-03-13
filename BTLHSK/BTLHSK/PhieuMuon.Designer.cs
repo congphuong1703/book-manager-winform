@@ -219,7 +219,7 @@
             this.crystalReportPhieuMuon.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportPhieuMuon.DisplayStatusBar = false;
             this.crystalReportPhieuMuon.DisplayToolbar = false;
-            this.crystalReportPhieuMuon.Location = new System.Drawing.Point(98, 74);
+            this.crystalReportPhieuMuon.Location = new System.Drawing.Point(75, 74);
             this.crystalReportPhieuMuon.Name = "crystalReportPhieuMuon";
             this.crystalReportPhieuMuon.Size = new System.Drawing.Size(1207, 535);
             this.crystalReportPhieuMuon.TabIndex = 21;
